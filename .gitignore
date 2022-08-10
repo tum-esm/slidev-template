@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+*.local
+index.html
+.remote-assets
+components.d.ts
+slides-with-clicks.pdf
+slides.pdf
+*.log

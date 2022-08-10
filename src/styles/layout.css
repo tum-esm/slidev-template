@@ -1,0 +1,52 @@
+:root {
+    // default theme color
+    // can be overrided by uses `themeConfig` option
+    --slidev-theme-primary: #5d8392;
+}
+
+.slidev-layout.default,
+.slidev-layout.center,
+.slidev-layout.two-cols,
+.slidev-layout.text-image-split {
+    h1 {
+        @apply text-3xl font-semibold text-slate-800;
+    }
+
+    h2 {
+        @apply text-2xl font-semibold text-slate-800;
+    }
+}
+
+.slidev-layout.cover {
+    h1 {
+        @apply text-4xl font-semibold text-slate-800 my-0 text-white;
+    }
+
+    h2 {
+        @apply text-xl uppercase text-blue-[#93C7FF] font-regular mt-2;
+    }
+}
+
+.slidev-layout {
+    a {
+        @apply underline decoration-dashed !border-0 underline-offset-1 decoration-2;
+        @apply font-medium text-blue-[#3070b3] hover:!decoration-solid;
+    }
+
+    img {
+        @apply rounded-md;
+    }
+
+    ol li,
+    ul li {
+        @apply !leading-tight my-3;
+    }
+
+    p code {
+        @apply bg-[#e9eef4] px-1 text-slate-800 font-bold;
+    }
+    code::before,
+    code::after {
+        @apply hidden;
+    }
+}

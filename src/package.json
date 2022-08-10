@@ -1,0 +1,32 @@
+{
+    "name": "pyra-4-introduction",
+    "private": true,
+    "scripts": {
+        "develop": "slidev slides.md --open",
+        "export": "slidev export slides.md --with-clicks && mv ../slides.pdf ../slides-with-clicks.pdf && slidev export slides.md"
+    },
+    "dependencies": {
+        "@iconify-json/tabler": "^1.1.20",
+        "@slidev/cli": "^0.34.3",
+        "@slidev/types": "^0.34.3",
+        "codemirror-theme-vars": "^0.1.1",
+        "playwright-chromium": "^1.23.4",
+        "prism-theme-vars": "^0.2.3",
+        "theme-vitesse": "^0.4.10",
+        "unplugin-icons": "^0.14.7"
+    },
+    "slidev": {
+        "colorSchema": "light",
+        "defaults": {
+            "titleTemplate": "%s",
+            "theme": ".",
+            "layout": "default",
+            "exportFilename": "../slides.pdf",
+            "fonts": {
+                "weights": "100,200,300,400,500,600,700,800,900"
+            },
+            "aspectRatio": "16/9",
+            "css": "windicss"
+        }
+    }
+}
