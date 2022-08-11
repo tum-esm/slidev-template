@@ -1,6 +1,6 @@
 <template>
     <div class="w-full h-full bg-white relative">
-        <div class="w-full px-10 py-6 slidev-layout default">
+        <div class="w-full slidev-layout default">
             <slot />
         </div>
         <Footer :subtitle="subtitle" :slideSubtitle="slideSubtitle" />
