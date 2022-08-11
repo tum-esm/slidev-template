@@ -15,16 +15,16 @@
         @apply font-semibold text-slate-800;
     }
     h1 {
-        @apply text-3xl;
+        @apply text-3xl my-2;
     }
     h2 {
-        @apply text-2xl;
+        @apply text-2xl my-2;
     }
     h3 {
-        @apply text-xl;
+        @apply text-xl my-1;
     }
     h4 {
-        @apply text-lg;
+        @apply text-lg my-1;
     }
 }
 

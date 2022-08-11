@@ -1,0 +1,17 @@
+// TODO: Style margins (headings, paragraphs, lists)
+
+// TODO: Style quotes
+
+.slidev-layout blockquote {
+    @apply bg-green-50 rounded-r-lg border-l-6 border-green-500 text-green-800;
+}
+
+.slidev-layout table {
+    th {
+        @apply font-bold;
+    }
+    th,
+    td {
+        @apply text-base py-2;
+    }
+}
