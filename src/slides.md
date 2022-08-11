@@ -13,6 +13,22 @@ hideInToc: true
 ## Demo Presentation
 
 ---
+
+This is a demo presentation containing the features of our template for [**Slidev**](https://sli.dev/). Slidev is a markdown presentation tool - a mixture of PowerPoint and Latex - write your presentation in a plain text file using markdown syntax and the PDF will be rendered by Slidev. You don't have to worry about formatting and can focus on the content. Your presentations will look consistent and simple.
+
+<br/>
+
+**How to get started:**
+1. Read the Slidev intro: https://sli.dev/guide/
+2. Get familiar with the file structure: https://sli.dev/guide/syntax.html
+3. Look into the demo document: [Markdown file](https://github.com/dostuffthatmatters/pyra-4-presentation/blob/main/docs/slides.example.md?plain=1) | [PDF](https://github.com/dostuffthatmatters/pyra-4-presentation/blob/main/docs/slides.example.pdf).
+4. Create your own presentation by cloning or forking [this template repository](https://github.com/tum-esm/tum-esm-slidev-template)
+
+<br/>
+
+If you have **issues, comments, or ideas for this template**, please create an issue [here](https://github.com/tum-esm/tum-esm-slidev-template/issues).
+
+---
 hideInToc: true
 ---
 
@@ -288,3 +304,13 @@ Include images/videos in your presentation using HTML or Markdown syntax:
 ```
 
 You have to know a bit of HTML and CSS to do this.
+
+---
+hideInToc: true
+---
+
+# Further Readings
+
+More documentation can be found on [https://sli.dev/](https://sli.dev/). Some of it does not work yet in this template. 
+
+Feel free to extend this template or its documentation! If you do, please talk to [**Moritz Makowski**](mailto:moritz.makowski@tum.de) first.
