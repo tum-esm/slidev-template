@@ -13,6 +13,8 @@ hideInToc: true
 ## Demo Presentation
 
 ---
+hideInToc: true
+---
 
 # Contents of this Demo
 
@@ -217,3 +219,72 @@ Eu amet non ad mollit dolore culpa laborum sunt eiusmod amet ipsum sit elit. Eni
 ---
 
 # Directory structure
+
+* Installation
+* Writing the presentation
+* Managing assets
+* Customize CSS 
+
+---
+
+## Installation
+
+```bash {1-4}
+📁 scripts
+    📄 install.sh
+    📄 develop.sh
+    📄 export.sh
+```
+
+Use `bash scripts/install.sh` to install all NodeJS dependencies. Use `bash scripts/develop.sh` to build your presentation (and view it in your browser). Export as PDFs with `bash scripts/export.sh`.
+
+---
+
+## Writing The Presentation
+
+```bash
+📁 scripts
+    📄 develop.sh
+📁 src
+    📄 slides.md
+```
+
+Run `bash scripts/develop.sh` to view it in the browser. Edit `src/slides.md`. The browser window will live-refresh.
+
+---
+
+## Managing Assets
+
+```bash
+📁 src
+    📁 assets
+        📁 slides
+            <your images>
+📄 .gitignore
+```
+
+Add presentation images inside `src/assets/slides/`. Use the `.gitignore` file when some (large) assets should not be included in the Git repository.
+
+Include images/videos in your presentation using HTML or Markdown syntax:
+
+```markdown
+<img 
+    alt="some alternative text"
+    style="width: 700px;"
+    src="/assets/slides/high-level-architecture-1.png"
+/>
+
+![some alternative text](/assets/slides/high-level-architecture-1.png)
+```
+
+---
+
+## Customize The CSS (optional)
+
+```bash
+📁 src
+    📁 styles
+        <possibly modify styles>
+```
+
+You have to know a bit of HTML and CSS to do this.
