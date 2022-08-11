@@ -65,7 +65,9 @@
     h1,
     h2,
     h3,
-    h4 {
+    h4,
+    ol,
+    ul {
         code {
             @apply bg-[#e9eef4] px-1 text-slate-800 font-bold;
         }

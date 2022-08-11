@@ -8,21 +8,41 @@ layout: cover
 hideInToc: true
 ---
 
-# Hello there!
+# <img src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg" style="width:32px; height: 36px; display: inline; padding-bottom: 4px;"/> TUM ESM Slidev Template
+
+## Demo Presentation
 
 ---
-layout: cover
+
+# Contents of this Demo
+
+<Toc maxDepth="1"/>
+
+
 ---
 
-# Main Heading (Layout `cover`)
+# Available Layouts
 
-## Secondary Heading
+* `default`
+* `cover`
+* `text-image-split`
+* `two-cols`
+* `center`
 
 ---
 
 ## Layout `default`
 
 Eu mollit nulla voluptate dolore dolore tempor velit aliqua cillum irure quis ea. Aute laboris sit quis aliquip tempor elit adipisicing duis in sint sit eiusmod exercitation consectetur. Ut deserunt qui veniam dolore sint excepteur. Occaecat minim ea eu esse enim deserunt veniam ad ullamco nostrud est.
+
+---
+layout: cover
+hideInToc: true
+---
+
+# Layout `cover` (Primary Heading)
+
+## Secondary Heading
 
 ---
 layout: text-image-split
@@ -60,9 +80,11 @@ layout: center
 
 Adipisicing est aliqua ea Lorem amet ut voluptate.
 
----
-layout: cover
+
 ---
 
-# Thank You for Your Attention!
+# Markdown Examples
 
+---
+
+# Directory structure

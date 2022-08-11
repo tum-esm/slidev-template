@@ -1,6 +1,6 @@
 **Work in progress! Better documentation coming soon.**
 
-# TUM ESM SliDev Template
+# TUM ESM Slidev Template
 
 ## What is it?
 
