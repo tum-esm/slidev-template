@@ -2,8 +2,8 @@
 title: PYRA 4 Introduction
 theme: ./
 defaults:
-  subtitle: Slidev Template | Professorship of Environmental Sensing and Modeling (ESM)
-  tumLogo: blue
+    subtitle: Slidev Template | Professorship of Environmental Sensing and Modeling (ESM)
+    tumLogo: blue
 layout: cover
 hideInToc: true
 ---
@@ -19,6 +19,7 @@ This is a demo presentation containing the features of our template for [**Slide
 <br/>
 
 **How to get started:**
+
 1. Read the Slidev intro: https://sli.dev/guide/
 2. Get familiar with the file structure: https://sli.dev/guide/syntax.html
 3. Look into the demo document: [Markdown file](https://github.com/dostuffthatmatters/pyra-4-presentation/blob/main/docs/slides.example.md?plain=1) | [PDF](https://github.com/dostuffthatmatters/pyra-4-presentation/blob/main/docs/slides.example.pdf).
@@ -40,11 +41,11 @@ hideInToc: true
 
 # Available Layouts
 
-* `default`
-* `cover`
-* `text-image-split`
-* `two-cols`
-* `center`
+-   `default`
+-   `cover`
+-   `text-image-split`
+-   `two-cols`
+-   `center`
 
 ---
 
@@ -101,14 +102,14 @@ Adipisicing est aliqua ea Lorem amet ut voluptate.
 
 # Markdown Examples
 
-* headings
-* text formatting
-* math
-* icons
-* code blocks
-* tables
-* lists
-* quotes
+-   headings
+-   text formatting
+-   math
+-   icons
+-   code blocks
+-   tables
+-   lists
+-   quotes
 
 ---
 hideInToc: true
@@ -126,7 +127,7 @@ hideInToc: true
 
 ## Text Formatting
 
-Adipisicing **bold text** officia ea. Reprehenderit reprehenderit voluptate occaecat do *italic text*. Quis nisi qui reprehenderit <span class="text-green-700 bg-green-100 px-1 rounded font-semibold">consectetur incididunt officia</span> anim pariatur exercitation. <span class="text-red-700 bg-red-100 px-1 rounded font-semibold">Ipsum quit</span> veniam mollit dolore aliqua officia.
+Adipisicing **bold text** officia ea. Reprehenderit reprehenderit voluptate occaecat do _italic text_. Quis nisi qui reprehenderit <span class="text-green-700 bg-green-100 px-1 rounded font-semibold">consectetur incididunt officia</span> anim pariatur exercitation. <span class="text-red-700 bg-red-100 px-1 rounded font-semibold">Ipsum quit</span> veniam mollit dolore aliqua officia.
 
 You can also use subscript (O<sub>2</sub>) or superscript (x<sup>2</sup>).
 
@@ -183,11 +184,8 @@ def add(a: int, b: int):
 **TypeScript example:**
 
 ```ts
-function add(
-    a: Ref<number> | number,
-    b: Ref<number> | number
-) {
-    return computed(() => unref(a) + unref(b))
+function add(a: Ref<number> | number, b: Ref<number> | number) {
+    return computed(() => unref(a) + unref(b));
 }
 ```
 
@@ -195,11 +193,11 @@ function add(
 
 ## Tables
 
-| left | centered | right |
-| :--- | :---: | ---: |
-| do exercitation | irure elit | qui | 
-| amet | velit | ad cupidatat quis |
-| esse ex | | |
+| left            |  centered  |             right |
+| :-------------- | :--------: | ----------------: |
+| do exercitation | irure elit |               qui |
+| amet            |   velit    | ad cupidatat quis |
+| esse ex         |            |                   |
 
 ---
 
@@ -215,10 +213,9 @@ function add(
 
 **Unordered lists:**
 
-* ghij
-* klmno
-* pqrstu
-
+-   ghij
+-   klmno
+-   pqrstu
 
 ---
 
@@ -236,36 +233,22 @@ Eu amet non ad mollit dolore culpa laborum sunt eiusmod amet ipsum sit elit. Eni
 
 # Directory structure
 
-* Installation
-* Writing the presentation
-* Managing assets
-* Customize CSS 
-
----
-
-## Installation
-
-```bash {1-4}
-📁 scripts
-    📄 install.sh
-    📄 develop.sh
-    📄 export.sh
-```
-
-Use `bash scripts/install.sh` to install all NodeJS dependencies. Use `bash scripts/develop.sh` to build your presentation (and view it in your browser). Export as PDFs with `bash scripts/export.sh`.
+-   Installation
+-   Writing the presentation
+-   Managing assets
+-   Customize CSS
 
 ---
 
 ## Writing The Presentation
 
 ```bash
-📁 scripts
-    📄 develop.sh
+📄 develop.sh
 📁 src
     📄 slides.md
 ```
 
-Run `bash scripts/develop.sh` to view it in the browser. Edit `src/slides.md`. The browser window will live-refresh.
+Run `./develop.sh` to view it in the browser. Edit `src/slides.md`. The browser window will live-refresh.
 
 ---
 
@@ -275,7 +258,7 @@ Run `bash scripts/develop.sh` to view it in the browser. Edit `src/slides.md`. T
 📁 src
     📁 assets
         📁 slides
-            <your images>
+            <your images here>
 📄 .gitignore
 ```
 
@@ -300,7 +283,7 @@ Include images/videos in your presentation using HTML or Markdown syntax:
 ```bash
 📁 src
     📁 styles
-        <possibly modify styles>
+        <possibly modify styles here>
 ```
 
 You have to know a bit of HTML and CSS to do this.
@@ -311,6 +294,6 @@ hideInToc: true
 
 # Further Readings
 
-More documentation can be found on [https://sli.dev/](https://sli.dev/). Some of it does not work yet in this template. 
+More documentation can be found on [https://sli.dev/](https://sli.dev/). Some of it does not work yet in this template.
 
 Feel free to extend this template or its documentation! If you do, please talk to [**Moritz Makowski**](mailto:moritz.makowski@tum.de) first.

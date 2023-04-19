@@ -7,17 +7,17 @@
         "export-example": "cp ../docs/slides.example.md slides.example.md && slidev export slides.example.md && mv ../slides.pdf ../docs/slides.example.pdf && rm slides.example.md"
     },
     "dependencies": {
-        "@iconify-json/tabler": "^1.1.20",
-        "@slidev/cli": "^0.34.3",
-        "@slidev/types": "^0.34.3",
-        "codemirror-theme-vars": "^0.1.1",
-        "katex": "^0.16.0",
+        "@iconify-json/tabler": "^1.1.73",
+        "@slidev/cli": "^0.40.13",
+        "@slidev/types": "^0.40.13",
+        "codemirror-theme-vars": "^0.1.2",
+        "katex": "^0.16.6",
         "markdown-it": "^13.0.1",
         "markdown-it-katex": "^2.0.3",
-        "playwright-chromium": "^1.23.4",
-        "prism-theme-vars": "^0.2.3",
-        "theme-vitesse": "^0.4.10",
-        "unplugin-icons": "^0.14.7"
+        "playwright-chromium": "^1.32.3",
+        "prism-theme-vars": "^0.2.4",
+        "theme-vitesse": "^0.6.4",
+        "unplugin-icons": "^0.16.1"
     },
     "slidev": {
         "colorSchema": "light",
