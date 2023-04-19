@@ -3,7 +3,8 @@
     "private": true,
     "scripts": {
         "develop": "slidev slides.md --open",
-        "export": "slidev export slides.md --with-clicks && mv ../slides.pdf ../slides-with-clicks.pdf && slidev export slides.md"
+        "export": "slidev export slides.md --with-clicks && mv ../slides.pdf ../slides-with-clicks.pdf && slidev export slides.md",
+        "export-example": "cp ../docs/slides.example.md slides.example.md && slidev export slides.example.md && mv ../slides.pdf ../docs/slides.example.pdf && rm slides.example.md"
     },
     "dependencies": {
         "@iconify-json/tabler": "^1.1.20",

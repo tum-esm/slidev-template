@@ -16,4 +16,7 @@ Write your slide content into `src/slides.md`.
 
 # export slides -> `slides.pdf` and `slides-with-clicks.pdf` created
 ./export.sh
+
+# export example slides in `docs/`
+./export-example.sh
 ```

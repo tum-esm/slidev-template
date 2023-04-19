@@ -30,8 +30,8 @@ This is a demo presentation containing the features of our template for [**Slide
 If you have **issues, comments, or ideas for this template**, please create an issue [here](https://github.com/tum-esm/tum-esm-slidev-template/issues).
 
 ---
-
-## hideInToc: true
+hideInToc: true
+---
 
 # Contents of this Demo
 
@@ -54,10 +54,8 @@ If you have **issues, comments, or ideas for this template**, please create an i
 Eu mollit nulla voluptate dolore dolore tempor velit aliqua cillum irure quis ea. Aute laboris sit quis aliquip tempor elit adipisicing duis in sint sit eiusmod exercitation consectetur. Ut deserunt qui veniam dolore sint excepteur. Occaecat minim ea eu esse enim deserunt veniam ad ullamco nostrud est.
 
 ---
-
 layout: cover
 hideInToc: true
-
 ---
 
 # Layout `cover` (Primary Heading)
@@ -65,8 +63,8 @@ hideInToc: true
 ## Secondary Heading
 
 ---
-
-## layout: text-image-split
+layout: text-image-split
+---
 
 ## Layout `text-image-split`
 
@@ -79,8 +77,8 @@ Aute voluptate consectetur cillum nulla aliqua incididunt non est sunt aliqua ut
 <img src="https://images.unsplash.com/photo-1612334001559-947862cc2202?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80" style="width: 300px; border-radius: 0.5rem;"/>
 
 ---
-
-## layout: two-cols
+layout: two-cols
+---
 
 ## Layout `two-cols`
 
@@ -93,8 +91,8 @@ Adipisicing Lorem et quis magna consequat ut irure tempor eu dolor nisi. Do irur
 Sunt ex ut ad nisi laboris veniam qui fugiat ex. Labore quis ipsum pariatur incididunt ad qui Lorem ipsum est minim labore ipsum dolore labore. Proident aliqua fugiat ex consectetur ullamco anim aliquip nostrud in in veniam reprehenderit ad.
 
 ---
-
-## layout: center
+layout: center
+---
 
 ## Layout `center`
 
@@ -114,8 +112,8 @@ Adipisicing est aliqua ea Lorem amet ut voluptate.
 -   quotes
 
 ---
-
-## hideInToc: true
+hideInToc: true
+---
 
 # Heading 1 `<h1>...</h1>`
 
@@ -242,29 +240,15 @@ Eu amet non ad mollit dolore culpa laborum sunt eiusmod amet ipsum sit elit. Eni
 
 ---
 
-## Installation
-
-```bash {1-4}
-📁 scripts
-    📄 install.sh
-    📄 develop.sh
-    📄 export.sh
-```
-
-Use `bash scripts/install.sh` to install all NodeJS dependencies. Use `bash scripts/develop.sh` to build your presentation (and view it in your browser). Export as PDFs with `bash scripts/export.sh`.
-
----
-
 ## Writing The Presentation
 
 ```bash
-📁 scripts
-    📄 develop.sh
+📄 develop.sh
 📁 src
     📄 slides.md
 ```
 
-Run `bash scripts/develop.sh` to view it in the browser. Edit `src/slides.md`. The browser window will live-refresh.
+Run `./develop.sh` to view it in the browser. Edit `src/slides.md`. The browser window will live-refresh.
 
 ---
 
@@ -274,7 +258,7 @@ Run `bash scripts/develop.sh` to view it in the browser. Edit `src/slides.md`. T
 📁 src
     📁 assets
         📁 slides
-            <your images>
+            <your images here>
 📄 .gitignore
 ```
 
@@ -299,14 +283,14 @@ Include images/videos in your presentation using HTML or Markdown syntax:
 ```bash
 📁 src
     📁 styles
-        <possibly modify styles>
+        <possibly modify styles here>
 ```
 
 You have to know a bit of HTML and CSS to do this.
 
 ---
-
-## hideInToc: true
+hideInToc: true
+---
 
 # Further Readings
 
