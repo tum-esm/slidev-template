@@ -1,7 +1,7 @@
 # 🌋 TUM ESM Slidev Template
 
 Demo presentation: [docs/slides.example.pdf](https://github.com/tum-esm/slidev-template/raw/main/docs/slides.example.pdf)<br/>
-Documentation about Slidev: [https://sli.dev/](https://sli.dev/)
+Documentation about **Slidev**: [https://sli.dev/](https://sli.dev/)
 
 **Usage:** Write your slide content into `src/slides.md`.
 
@@ -15,3 +15,5 @@ Documentation about Slidev: [https://sli.dev/](https://sli.dev/)
 # export example slides in `docs/`
 ./export-example.sh
 ```
+
+⚠️ The PDF's exported by Slidev can be quite large. If you have **Ghostscript** (https://www.ghostscript.com/) installed on your system, the export scripts will automatically compress the PDF's.
