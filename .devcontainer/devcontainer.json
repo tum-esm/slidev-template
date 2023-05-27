@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json
 {
     "name": "Slidev",
-    "image": "mcr.microsoft.com/devcontainers/ubuntu-22.04",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
     "features": {
         "ghcr.io/devcontainers/features/node:1": {}
     },
