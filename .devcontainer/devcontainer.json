@@ -8,15 +8,15 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "file-icons.file-icons"
                 "whatwewant.open-terminal",
                 "handengineering.handcrafted-theme",
-                "equinusocio.vsc-material-theme-icons",
                 "gruntfuggly.todo-tree",
-                "antfu.slidev"
+                "antfu.slidev",
             ],
             "settings": {
                 "workbench.colorTheme": "Handcrafted Dark",
-                "workbench.iconTheme": "material-icon-theme"
+                "workbench.iconTheme": "file-icons"
             }
         }
     }
