@@ -13,7 +13,7 @@
         />
         <img
             v-if="variant === 'striped'"
-            src="../assets/theme/tum-logo-striped.svg"
+            src="../assets/theme/tum-logo-striped.png"
         />
     </div>
 </template>
