@@ -16,4 +16,4 @@ Documentation about **Slidev**: [https://sli.dev/](https://sli.dev/)
 ./export-example.sh
 ```
 
-🐘 The PDF's exported by Slidev can be quite large. If you have **Ghostscript** (https://www.ghostscript.com/) installed on your system, the export scripts will automatically compress the PDF's.
+🐘 The PDFs exported by Slidev can be pretty large. If you have **Ghostscript** (https://www.ghostscript.com/) installed on your system, the export scripts will automatically compress the PDFs.
