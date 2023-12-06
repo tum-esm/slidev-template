@@ -4,6 +4,10 @@
     --slidev-theme-primary: #5d8392;
 }
 
+* {
+    @apply p-0 m-0 box-border;
+}
+
 .slidev-layout.default,
 .slidev-layout.center,
 .slidev-layout.two-cols,

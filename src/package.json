@@ -1,37 +1,37 @@
 {
-    "name": "pyra-4-introduction",
-    "private": true,
-    "scripts": {
-        "develop": "slidev slides.md --port 3007 --open",
-        "export": "slidev export slides.md --with-clicks && mv ../slides.pdf ../slides-with-clicks.pdf && slidev export slides.md",
-        "export-example": "cp ../docs/slides.example.md slides.example.md && slidev export slides.example.md && mv ../slides.pdf ../docs/slides.example.pdf && rm slides.example.md"
-    },
-    "dependencies": {
-        "@iconify-json/tabler": "^1.1.100",
-        "@slidev/cli": "^0.45.0",
-        "@slidev/theme-default": "^0.21.2",
-        "@slidev/types": "^0.45.0",
-        "codemirror-theme-vars": "^0.1.2",
-        "katex": "^0.16.9",
-        "markdown-it": "^13.0.2",
-        "markdown-it-katex": "^2.0.3",
-        "playwright-chromium": "^1.40.1",
-        "prism-theme-vars": "^0.2.4",
-        "theme-vitesse": "^0.7.5",
-        "unplugin-icons": "^0.18.1"
-    },
-    "slidev": {
-        "colorSchema": "light",
-        "defaults": {
-            "titleTemplate": "%s",
-            "theme": ".",
-            "layout": "default",
-            "exportFilename": "../slides.pdf",
-            "fonts": {
-                "weights": "100,200,300,400,500,600,700,800,900"
-            },
-            "aspectRatio": "16/9",
-            "css": "windicss"
-        }
+  "name": "pyra-4-introduction",
+  "private": true,
+  "scripts": {
+    "develop": "slidev slides.md --port 3007 --open",
+    "export": "slidev export slides.md --with-clicks && mv ../slides.pdf ../slides-with-clicks.pdf && slidev export slides.md",
+    "export-example": "cp ../docs/slides.example.md slides.example.md && slidev export slides.example.md && mv ../slides.pdf ../docs/slides.example.pdf && rm slides.example.md"
+  },
+  "dependencies": {
+    "@iconify-json/tabler": "^1.1.100",
+    "@slidev/cli": "^0.45.0",
+    "@slidev/theme-default": "^0.21.2",
+    "@slidev/types": "^0.45.0",
+    "codemirror-theme-vars": "^0.1.2",
+    "katex": "^0.16.9",
+    "markdown-it": "^13.0.2",
+    "markdown-it-katex": "^2.0.3",
+    "playwright-chromium": "^1.40.1",
+    "prism-theme-vars": "^0.2.4",
+    "theme-vitesse": "^0.7.5",
+    "unplugin-icons": "^0.18.1"
+  },
+  "slidev": {
+    "colorSchema": "light",
+    "defaults": {
+      "titleTemplate": "%s",
+      "theme": ".",
+      "layout": "default",
+      "exportFilename": "../slides.pdf",
+      "fonts": {
+        "weights": "100,200,300,400,500,600,700,800,900"
+      },
+      "aspectRatio": "16/9",
+      "css": "windicss"
     }
+  }
 }
